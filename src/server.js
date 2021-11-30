@@ -20,10 +20,7 @@ const morgan = require("morgan");
 const app = express();
 
 
-//en donde esta a carpeta views
-app.set('views', path.join(__dirname, '/views'));
-//configurar las vistas de la aplicacion (motor de plantillas)
-app.set('view engine', 'ejs');
+
 
 const bodyParser = require("body-parser");
 var urlencodedParser = bodyParser.urlencoded({ extended: false });
