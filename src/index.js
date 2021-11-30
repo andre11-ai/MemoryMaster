@@ -33,11 +33,11 @@ app.use(bodyParser.urlencoded({ extended: false }));
 
 //conectar a mysql
 const db = mysql.createConnection({
-  host: "localhost",
-  user: "root",
-  password: "Root",
+  host: "us-cdbr-east-04.cleardb.com",
+  user: "b9c7ee8511a738",
+  password: "db43d3ff",
   port: "3306",
-  database: "memorymaster",
+  database: "heroku_6b6c42ba4670b14",
 });
 
 db.connect((err) => {
