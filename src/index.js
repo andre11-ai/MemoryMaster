@@ -10,14 +10,6 @@ const myConnection = require("express-myconnection");
 const session = require("express-session");
 
 
-
-
-
-
-
-
-
-
 //usaremos path para unir directorios
 const path = require("path");
 
